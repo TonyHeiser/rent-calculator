@@ -127,10 +127,6 @@ h1.title {
 
 .result-container__div {
   display: none;
-}
-
-.result-container__div.show {
-  display: block;
 
   p {
     color: var(--clrwhite);
@@ -156,6 +152,10 @@ h1.title {
     font-size: 18px;
     color: var(--clrwhite);
   }
+}
+
+.result-container__div.show {
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
@@ -189,7 +189,7 @@ h1.title {
     border-radius: 5px;
   }
 
-  .result-container__div.show {
+  .result-container__div {
   
     p {
       color: var(--clrwhite);
