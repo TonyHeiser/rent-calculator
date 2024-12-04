@@ -188,4 +188,32 @@ h1.title {
     padding: 5px;
     border-radius: 5px;
   }
+
+  .result-container__div.show {
+  
+    p {
+      color: var(--clrwhite);
+      font-size: 20px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid var(--clrblack);
+    }
+  
+    span {
+      background-color: var(--clrgreen);
+      color: var(--clrblack);
+      font-weight: 600;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 5px;
+    }
+  
+    h3 {
+      font-size: 24px;
+    }
+  
+    ul li {
+      font-size: 18px;
+      color: var(--clrwhite);
+    }
+  }
 }
