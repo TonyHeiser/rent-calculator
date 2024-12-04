@@ -1,0 +1,10 @@
+manSalary
+womanSalary
+rent
+p = ?
+
+manSalary / 100 * p;
+womanSalary / 100 * p;
+rent = (manSalary / 100) * p + (womanSalary / 100) * p;
+rent = p * (manSalary / 100 + womanSalary / 100);
+p = rent / (manSalary / 100 + womanSalary / 100);

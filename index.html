@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent Calculation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Rent Calculation</h1>
+    <form id="rent-form">
+      <div class="rent-form__inputs">
+        <div class="residents__container">
+          <label for="residents">Number of Residents:</label>
+          <input class="rent-form__input" type="number" id="residents" name="residents" oninput="generateSalaryInputs()" required max="100">
+        </div>
+
+        <div class="rent__container">
+          <label for="rent">Total Rent Amount:</label>
+          <input class="rent-form__input" type="number" id="rent" name="rent" required>
+        </div>
+      </div>
+
+      <button class="calculate-btn">Calculate</button>
+
+      <div id="residents-inputs" class="residents-inputs__container">
+
+      </div>
+
+      <div id="result-container" class="result-container__div">
+        
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
